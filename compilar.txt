@@ -1,0 +1,11 @@
+gcc -g -std=c99 -Wall -Wconversion -Wtype-limits -Wbad-function-cast -Wshadow -Wpointer-arith -Wunreachable-code -pedantic -Werror   -c -o testing.o testing.c
+
+gcc -g -std=c99 -Wall -Wconversion -Wtype-limits -Wbad-function-cast -Wshadow -Wpointer-arith -Wunreachable-code -pedantic -Werror   -c -o main.o main.c
+
+gcc -g -std=c99 -Wall -Wconversion -Wtype-limits -Wbad-function-cast -Wshadow -Wpointer-arith -Wunreachable-code -pedantic -Werror   -c -o pila.o pila.c
+
+gcc -g -std=c99 -Wall -Wconversion -Wtype-limits -Wbad-function-cast -Wshadow -Wpointer-arith -Wunreachable-code -pedantic -Werror   -c -o pruebas_alumno.o pruebas_alumno.c
+
+gcc -o main testing.o main.o pila.o pruebas_alumno.o
+
+./main
