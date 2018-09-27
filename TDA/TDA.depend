@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1537916462 source:c:\users\diego\desktop\diego\facu\algo1\tda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaEstatica.h"
+	"colaDinamica.h"
+
+1537661078 source:c:\users\diego\desktop\diego\facu\algo1\tda\pilaestatica.c
+	<stdio.h>
+
+1537901913 c:\users\diego\desktop\diego\facu\algo1\tda\pilaestatica.h
+	<stdio.h>
+
+1537889913 c:\users\diego\desktop\diego\facu\algo1\tda\piladinamica.h
+	<stdio.h>
+
+1537913883 c:\users\diego\desktop\diego\facu\algo1\tda\colaestatica.h
+	<stdio.h>
+
+1537916394 c:\users\diego\desktop\diego\facu\algo1\tda\coladinamica.h
+	<stdio.h>
+

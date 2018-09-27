@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Pila.dir/main.c.o  -o Pila 

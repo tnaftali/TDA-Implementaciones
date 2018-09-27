@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Pila.dir/main.c.o CMakeFiles/Pila.dir/pila.c.o CMakeFiles/Pila.dir/testing.c.o CMakeFiles/Pila.dir/pruebas_alumno.c.o CMakeFiles/Pila.dir/stack.c.o  -o Pila 

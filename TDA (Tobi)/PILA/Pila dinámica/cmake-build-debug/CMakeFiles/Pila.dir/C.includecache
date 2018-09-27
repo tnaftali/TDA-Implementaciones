@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tobias/CLionProjects/Pila dinámica/main.c
+pila.c
+/home/tobias/CLionProjects/Pila dinámica/pila.c
+
+/home/tobias/CLionProjects/Pila dinámica/pila.c
+stdio.h
+-
+stdlib.h
+-
+
