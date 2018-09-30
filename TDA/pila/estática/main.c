@@ -21,32 +21,32 @@ void esta_llena(t_pila *p) {
 
 
 int main() {
-    t_pila *p;
+    t_pila *pila;
     t_dato elem;
     int cont = 0;
 
-    p_crear(&p);
+    p_crear(&pila);
 
-    esta_vacia(&p);
-    esta_llena(&p);
+    esta_vacia(&pila);
+    esta_llena(&pila);
 
     printf("Agregando elementos a la pila\n");
     while (cont < MAX_CIMA) {
         elem = cont + 1;
-        p_poner(&p, elem);
+        p_poner(&pila, elem);
         cont++;
     }
 
-    esta_vacia(&p);
-    esta_llena(&p);
+    esta_vacia(&pila);
+    esta_llena(&pila);
 
     printf("Sacando elementos de la pila\n");
-    while (0 == p_vacia(&p)) {
-        p_sacar(&p, &elem);
+    while (0 == p_vacia(&pila)) {
+        p_sacar(&pila, &elem);
     }
 
-    esta_llena(&p);
-    esta_vacia(&p);
+    esta_llena(&pila);
+    esta_vacia(&pila);
 
     return (EXIT_SUCCESS);
 }
